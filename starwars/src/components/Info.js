@@ -3,9 +3,9 @@ import "./StarWars.css"
 
 const Info = props => {
   return (
-    <div className="card">
+    <div className="CBox">
     <h2>{props.characterInfo.name}</h2>
-    <h4>Basic Info</h4>
+    <h4>:::::::::  Basic Info  :::::::::</h4>
     <p>Year of Birth: {props.characterInfo.birth_year}</p>
     <p>Gender: {props.characterInfo.gender}</p>
     <p>Height: {props.characterInfo.height} cm</p>
